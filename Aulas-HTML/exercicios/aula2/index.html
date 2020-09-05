@@ -1,23 +1,91 @@
-<!--
-Exercicio 2:
-Vamos tentar reproduzir a estrutura de um layout? 
-Escolha um site da sua preferência e tente identificar 
-nele os elementos que vimos hoje (<header>, <footer>,
-<nav>, <article>). Depois, crie um arquivo HTML e use
-as tags de uma forma que você acha que o conteúdo do site
-que você escolheu fique organizado.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>BBC</title>
+  </head>
 
-Coloque o link do site que você se baseou na descriçaão do PR 
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>BBC News | BRASIL </h1>
+    </header>
 
-Não se preocupe em copiar os conteúdos ou em deixá-los bonitos.
-Lembre-se: HTML é sobre organizar o nosso conteúdo de uma forma semântica. 
+    <!-- Menu de navegação -->
+    <nav>
+      <ul>
+        <li><a href="https://www.bbc.com/portuguese">Notícia</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/cz74k717pw5t">Brasil</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/cmdm4ynm24kt">Internacional</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/cvjp2jr0k9rt">Economia</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/c340q430z4vt">Saúde</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/cr50y580rjxt">Ciência</a></li>
+        <li><a href="https://www.bbc.com/portuguese/topics/c404v027pd4t">Tecnologia</a></li>
+        <li><a href="https://www.bbc.com/portuguese/aprenda_ingles">Aprenda Inglês</a></li>
+        <li><a href="https://www.bbc.com/portuguese/salasocial">#SalaSocial</a></li>
+        <li><a href="https://www.bbc.com/portuguese/media/video">Vídeos</a></li>
+      </ul>
+    </nav>
 
-Entrega:
- - Fazer fork do repositório pro seu usuário do github (caso já tenha feito o fork desse repositório, 
-   não precisa fazer novamente. Faça a atualização do fork pra ter os novos arquivos da aula)
- - Fazer o clone do repositório "forkado" da sua conta do github para a sua máquina
- - Colocar a resolução do exercício nesse arquivo (aulas-html/exercicios/aula2/index.html)
- - Dar git push das alterações
- - Abrir um pull request para o repositório original (da Womakers)
- - Acompanhar o prazo e marcar a entrega no Classroom
--->
+    <!-- Conteúdo principal da página -->
+    <main>
+      <section>
+          <!-- Notícias Principais -->
+        
+       <a href="#"> <article>
+            <h2>Heróis de guerra ou 'otários'? A saia-justa de Trump com os militares</h2>
+            <img src="trump.JPG" alt="Trump"/>
+            <p> Segundo a revista The Atlantic, presidente, que concorre à reeleição em novembro, chamou feridos ou mortos na guerra de 'perdedores' e 'otários'; Trump nega ter usado as palavras.</p>
+          </article></a>
+          <a href="https://www.bbc.com/portuguese/internacional-54035426"> <article>
+            <h2>As conclusões do estudo sobre a vacina russa contra o coronavírus</h2>
+          </article></a>
+      </section>
+      <section>
+       
+      <h2>Vídeo e Aúdio</h2>
+     <a href="https://www.bbc.com/portuguese/brasil-54025956"> <article>
+              <img src="Nota200.JPG" alt="Noda de 200 reais"/>
+              <h3> Conheça a nova nota de R$ 200 e as cédulas mais valiosas do mundo.</h3>
+        </article></a>
+        <a href="https://www.bbc.com/portuguese/geral-53972859"> <article>
+            <img src="meninaaovento.JPG" alt="Menina lançada ao vento"/>
+            <h3> Menina é lançada ao ar por pipa em Taiwan</h3>
+      </article></a>
+        
+    </section>
+    <section>
+      <h2>Brasil</h2>
+     <a href="https://www.bbc.com/portuguese/brasil-53994532"> <article>
+        <img src="medicos10mil.JPG" alt="10 mil Medicos"/>
+        <h3>  O grupo de '10 mil' médicos pró-cloroquina que se aproximou de Bolsonaro com ‘evento histórico’</h3>
+         
+        </article></a>
+
+    </section>
+    </main>
+
+    <!-- Aside -->
+    <aside>
+      <h2>Redes Sociais</h2>
+
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+        </ul>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>Por que você pode confiar na BBC.</p>
+        <ul>
+            <lo><a href="#">Termo de uso</a></lo>
+            <lo><a href="#">Sobre a BBC</a></lo>
+          </ul>
+      <p>© 2020 BBC. A BBC não se responsabiliza pelo conteúdo de sites externos.</p>
+      <a href="#">Leia sobre nossa política em relação a links externos.</a>
+    </footer>
+  </body>
+</html>
