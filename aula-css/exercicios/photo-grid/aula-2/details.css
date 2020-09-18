@@ -1,0 +1,196 @@
+body {
+    background: #f4f4f4;
+    text-align: center;
+}
+header {
+    margin:0;
+    background-color:  rgb(211, 179, 137);
+    height: 100px;
+}
+h1{
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 40px;
+    font-size: 18px;
+
+}
+a{
+    text-decoration: none;
+    margin: 50px;
+    font-size: 12px;
+}
+.text_profile{
+    display: flex;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 10px;
+}
+.round_perfil {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 350px;
+            
+    background-color: rgba(177, 146, 10, 0.555);
+    justify-content: space-evenly;
+
+        
+}
+
+.round_perfil img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin:2px;
+    padding: 2px;
+          
+}
+.round_perfil h3{
+
+    font-size: 12px;
+    padding: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 270px;
+}
+.text p {
+    
+    font-size: 'Segoe UI', sans-serif;
+    color: #000000;
+}
+.text{
+    background-color:  rgba(212, 187, 76, 0.555);
+    width: 336px;
+    height: 260px;
+    padding: 2%;
+            
+}
+.card img {
+    width: 350px;
+    height: 260px;
+    padding: 2%;
+        
+}
+.card {
+    display: flex;
+    width: 350px;
+    height: 270px;
+            
+    background:rgb(216, 178, 10);
+            
+        
+}
+    /*.footer{
+
+        text-align: center;
+        margin:auto;
+        background-color:  rgb(211, 179, 137);
+        height: 100px;
+    }
+
+}*/
+@media (min-width: 700px){
+    body {
+        background: #f4f4f4;
+        text-align: center;
+    }
+    header {
+        margin:0;
+        background-color:  rgb(211, 179, 137);
+        height: 100px;
+    }
+    h1{
+        color: black;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 40px;
+        font-size: 22px;
+
+    }
+    a{
+        text-decoration: none;
+        margin: 50px;
+        font-size: 12px;
+        
+
+    }
+    .text_profile{
+        display: flex;
+            
+    }
+    .photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .round_perfil {
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        width: 300px;
+        
+        background-color: rgba(177, 146, 10, 0.555);
+        justify-content: space-evenly;
+
+
+    }
+
+    .round_perfil img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin:2px;
+        padding: 2px;
+        
+
+    }
+    .round_perfil h3{
+
+        font-size: 12px;
+        padding: 20px;
+
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 270px;
+    }
+    .text p {
+
+        font-size: 'Segoe UI', sans-serif;
+        color: #000000;
+
+    }
+    .text{
+        background-color: rgba(212, 187, 76, 0.555);
+        width: 286px;
+        height: 260px;
+        padding: 2%;
+
+    }
+    .card img {
+        width: 350px;
+        height: 260px;
+        padding: 2%;
+
+
+    }
+    .card {
+        display: flex;
+        width: 350px;
+        height: 270px;
+        
+        background:rgb(216, 178, 10);
+        
+    
+    }
+}
